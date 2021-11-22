@@ -1,0 +1,91 @@
+body {
+    background: #fafafa;
+  }
+  
+  .dino {
+    position: absolute;
+    bottom: 0;
+    background-image: url(img/marsha.png);
+    width: 180px;
+    height: 180px;
+    background-size: cover;
+  }
+  
+  .cactus {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 0;
+    background-image: url(img/tucano.png);
+    background-size: cover;
+  }
+
+  .urso {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    bottom: 0;
+    background-image: url(img/urso.png);
+    background-size: cover;
+    
+
+  }
+  
+  .game-over {
+   
+    
+    height: 600px;
+    text-align: center;
+    color: black;
+    margin: auto;
+    font-family: arial;
+    background-image: url(img/game.over.png);
+    background-size: cover;
+    background-position-y: 0;
+    
+}
+  
+  
+  @keyframes slideright {
+    from {
+        background-position: 70000%;
+    }
+    to {
+        background-position: 0%;
+    }
+  }
+  
+  .background {
+    position: absolute;
+    bottom: 0px;
+    background-image: url('img/background.png');
+    background-repeat: repeat-x;
+    animation: slideright 800s infinite linear;
+    -webkit-animation: slideright 800s infinite linear;
+    width: 100%;
+    height: 300px;
+  }
+  
+ .container {
+     display: flex;
+     flex-direction: row;
+     
+     width: 100%;
+ }
+
+ .ceu img {
+
+    
+     width: 350px;
+     height: 350px;
+     margin: 25px;
+ }
+
+
+ .ceu1 img {
+
+    width: 250px;
+    height: 250px;
+    padding-left: 500px;
+    padding-top: 25px;
+}
